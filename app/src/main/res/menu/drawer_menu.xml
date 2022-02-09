@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search_all"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="Search All" />
+        <item
+            android:id="@+id/nav_craigslist"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="Craigslist" />
+        <item
+            android:id="@+id/nav_facebook_marketplace"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="Facebook Marketplace" />
+    </group>
+    <item android:title="Search Parameters">
+        <menu>
+            <item
+                android:id="@+id/nav_craigslist_settings"
+                android:icon="@drawable/ic_baseline_directions_car_24"
+                android:title="Craigslist Settings" />
+            <item
+                android:id="@+id/nav_facebook_settings"
+                android:icon="@drawable/ic_baseline_directions_car_24"
+                android:title="Facebook Settings" />
+        </menu>
+    </item>
+
+</menu>
